@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/my-bg.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+body{
+    color: #ffffff;
+    overflow-y: hidden;
+}
+h1, li{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    padding: 12px;
+    list-style-type: none;
+}
+.explore{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 220px;
+}
+button{
+    background-color: blue;
+    padding: 10px ;
+    color: #ffffff;
+    border-radius: 20px;
+    border:transparent;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
